@@ -1,5 +1,6 @@
 # mCalendarView
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-mCalendarView-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/2420)
+[![](https://jitpack.io/v/crislizame/mCalendarView.svg)](https://jitpack.io/#crislizame/mCalendarView)
 
 Customizable & Expandable Calendar Widget for Android
 
