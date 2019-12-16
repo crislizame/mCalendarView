@@ -18,7 +18,7 @@ public class ExpCalendarUtil {
      * @param number - Number day of Week (on the code Sunday is equal 7)
      * @return [String] - abbreviated name of the days of the week
      */
-    String shortWeekdays[] = {"Dom","Lun","Mar","Mier","Jue","Sab"};
+    public String[] shortWeekdays = {"Dom","Lun","Mar","Mier","Jue","Sab"};
     public static String number2Week(int number) {
         if (number < 1 || number > 7) return null; //Day of Week 1-7
         if (number == 7) {
