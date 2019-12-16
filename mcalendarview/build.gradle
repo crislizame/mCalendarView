@@ -4,9 +4,9 @@ apply plugin: 'com.jfrog.bintray'
 
 version = "1.0.0"
 
-def siteUrl = "https://github.com/crislizame/mCalendarView/"
-def gitUrl = "https://github.com/crislizame/mCalendarView.git"
-group = "com.github.crislizame"
+def siteUrl = "https://github.com/SpongeBobSun/mCalendarView/"
+def gitUrl = "https://github.com/SpongeBobSun/mCalendarView.git"
+group = "sun.bob"
 
 android {
     compileSdkVersion 24
