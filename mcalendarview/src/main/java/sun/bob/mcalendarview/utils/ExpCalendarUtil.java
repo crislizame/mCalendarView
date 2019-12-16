@@ -18,7 +18,6 @@ public class ExpCalendarUtil {
      * @param number - Number day of Week (on the code Sunday is equal 7)
      * @return [String] - abbreviated name of the days of the week
      */
-    final String[] shortWeekdays = {"Dom","Lun","Mar","Mier","Jue","Sab"};
     public static String number2Week(int number) {
         if (number < 1 || number > 7) return null; //Day of Week 1-7
         if (number == 7) {
@@ -26,6 +25,7 @@ public class ExpCalendarUtil {
         } else {
             number = number + 1;
         }
+        String[] shortWeekdays = {"Dom","Lun","Mar","Mier","Jue","Sab"};
         final DateFormatSymbols symbols = new DateFormatSymbols(); //use user locale
         final String nameDayOfWeek = shortWeekdays[number]; //Short name or getWeekdays for complete name
         return nameDayOfWeek.toUpperCase(); //name to uppercase
