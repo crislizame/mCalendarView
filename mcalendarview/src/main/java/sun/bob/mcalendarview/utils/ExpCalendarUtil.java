@@ -25,9 +25,9 @@ public class ExpCalendarUtil {
         } else {
             number = number + 1;
         }
-        final String[] shortWeekdays = = new String[]{"Dom","Lun","Mar","Mier","Jue","Sab"};
+        final String[] shortWeekdaysxx = = new String[]{"Dom","Lun","Mar","Mier","Jue","Sab"};
         final DateFormatSymbols symbols = new DateFormatSymbols(); //use user locale
-        final String nameDayOfWeek = shortWeekdays[number]; //Short name or getWeekdays for complete name
+        final String nameDayOfWeek = shortWeekdaysxx[number]; //Short name or getWeekdays for complete name
         return nameDayOfWeek.toUpperCase(); //name to uppercase
     }
 
